@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<experiment-statistics>
+    <callStatistics>
+        <additionalDetails>
+            <description>testQuotingOfQuotes(fieldtest.test.ExtendedMessageFormatTestField)</description>
+            <exceptionClassName>java.lang.OutOfMemoryError</exceptionClassName>
+            <message>Java heap space</message>
+            <trace>java.lang.OutOfMemoryError: Java heap space
+</trace>
+        </additionalDetails>
+        <result>FAIL</result>
+        <testTime>16265</testTime>
+        <triggerCheckTime>0</triggerCheckTime>
+    </callStatistics>
+    <callStatistics>
+        <additionalDetails>
+            <description>testQuotingOfQuotes(fieldtest.test.ExtendedMessageFormatTestField)</description>
+            <exceptionClassName>java.lang.OutOfMemoryError</exceptionClassName>
+            <message>Java heap space</message>
+            <trace>java.lang.OutOfMemoryError: Java heap space
+</trace>
+        </additionalDetails>
+        <result>FAIL</result>
+        <testTime>10899</testTime>
+        <triggerCheckTime>0</triggerCheckTime>
+    </callStatistics>
+    <callStatistics>
+        <additionalDetails>
+            <description>testQuotingOfQuotes(fieldtest.test.ExtendedMessageFormatTestField)</description>
+            <exceptionClassName>java.lang.OutOfMemoryError</exceptionClassName>
+            <message>Java heap space</message>
+            <trace>java.lang.OutOfMemoryError: Java heap space
+</trace>
+        </additionalDetails>
+        <result>FAIL</result>
+        <testTime>16107</testTime>
+        <triggerCheckTime>0</triggerCheckTime>
+    </callStatistics>
+    <callStatistics>
+        <additionalDetails>
+            <description>testQuotingOfQuotes(fieldtest.test.ExtendedMessageFormatTestField)</description>
+            <exceptionClassName>java.lang.OutOfMemoryError</exceptionClassName>
+            <message>Java heap space</message>
+            <trace>java.lang.OutOfMemoryError: Java heap space
+</trace>
+        </additionalDetails>
+        <result>FAIL</result>
+        <testTime>12861</testTime>
+        <triggerCheckTime>0</triggerCheckTime>
+    </callStatistics>
+    <callStatistics>
+        <additionalDetails>
+            <description>testQuotingOfQuotes(fieldtest.test.ExtendedMessageFormatTestField)</description>
+            <exceptionClassName>java.lang.OutOfMemoryError</exceptionClassName>
+            <message>Java heap space</message>
+            <trace>java.lang.OutOfMemoryError: Java heap space
+</trace>
+        </additionalDetails>
+        <result>FAIL</result>
+        <testTime>12256</testTime>
+        <triggerCheckTime>0</triggerCheckTime>
+    </callStatistics>
+    <callStatistics>
+        <additionalDetails>
+            <description>testQuotingOfQuotes(fieldtest.test.ExtendedMessageFormatTestField)</description>
+            <exceptionClassName>java.lang.OutOfMemoryError</exceptionClassName>
+            <message>Java heap space</message>
+            <trace>java.lang.OutOfMemoryError: Java heap space
+</trace>
+        </additionalDetails>
+        <result>FAIL</result>
+        <testTime>13247</testTime>
+        <triggerCheckTime>0</triggerCheckTime>
+    </callStatistics>
+    <callStatistics>
+        <result>PASS</result>
+        <testTime>7</testTime>
+        <triggerCheckTime>0</triggerCheckTime>
+    </callStatistics>
+    <callStatistics>
+        <additionalDetails>
+            <description>testQuotingOfQuotes(fieldtest.test.ExtendedMessageFormatTestField)</description>
+            <exceptionClassName>java.lang.OutOfMemoryError</exceptionClassName>
+            <message>Java heap space</message>
+            <trace>java.lang.OutOfMemoryError: Java heap space
+</trace>
+        </additionalDetails>
+        <result>FAIL</result>
+        <testTime>11984</testTime>
+        <triggerCheckTime>0</triggerCheckTime>
+    </callStatistics>
+    <callStatistics>
+        <additionalDetails>
+            <description>testQuotingOfQuotes(fieldtest.test.ExtendedMessageFormatTestField)</description>
+            <exceptionClassName>java.lang.OutOfMemoryError</exceptionClassName>
+            <message>Java heap space</message>
+            <trace>java.lang.OutOfMemoryError: Java heap space
+</trace>
+        </additionalDetails>
+        <result>FAIL</result>
+        <testTime>17582</testTime>
+        <triggerCheckTime>0</triggerCheckTime>
+    </callStatistics>
+    <callStatistics>
+        <additionalDetails>
+            <description>testQuotingOfQuotes(fieldtest.test.ExtendedMessageFormatTestField)</description>
+            <exceptionClassName>java.lang.OutOfMemoryError</exceptionClassName>
+            <message>Java heap space</message>
+            <trace>java.lang.OutOfMemoryError: Java heap space
+</trace>
+        </additionalDetails>
+        <result>FAIL</result>
+        <testTime>16019</testTime>
+        <triggerCheckTime>0</triggerCheckTime>
+    </callStatistics>
+    <summary>
+        <averageTestTime>12722.7</averageTestTime>
+        <averageTriggerCheckTime>0.0</averageTriggerCheckTime>
+        <nrExecutedTests>10</nrExecutedTests>
+        <nrPotentiallyExecutedTests>10</nrPotentiallyExecutedTests>
+        <probablyUniqueFailures>1</probablyUniqueFailures>
+        <ratioFailToPass>9.0</ratioFailToPass>
+        <ratioOfExecutedTests>1.0</ratioOfExecutedTests>
+    </summary>
+</experiment-statistics>

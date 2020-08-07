@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<experiment-statistics>
+    <callStatistics>
+        <additionalDetails>
+            <description>testQuotingOfQuotes(fieldtest.test.ExtendedMessageFormatTestField)</description>
+            <exceptionClassName>java.lang.OutOfMemoryError</exceptionClassName>
+            <message>Java heap space</message>
+            <trace>java.lang.OutOfMemoryError: Java heap space
+</trace>
+        </additionalDetails>
+        <additionalTriggerDetails>covered: registry:java.util.HashMap-&gt;keySet:java.lang.Object : null</additionalTriggerDetails>
+        <result>FAIL</result>
+        <testTime>27495</testTime>
+        <triggerCheckTime>1</triggerCheckTime>
+    </callStatistics>
+    <callStatistics>
+        <additionalDetails>
+            <description>testQuotingOfQuotes(fieldtest.test.ExtendedMessageFormatTestField)</description>
+            <exceptionClassName>java.lang.OutOfMemoryError</exceptionClassName>
+            <message>Java heap space</message>
+            <trace>java.lang.OutOfMemoryError: Java heap space
+</trace>
+        </additionalDetails>
+        <additionalTriggerDetails>covered: registry:java.util.HashMap-&gt;entrySet:java.lang.Object : null</additionalTriggerDetails>
+        <result>FAIL</result>
+        <testTime>23198</testTime>
+        <triggerCheckTime>0</triggerCheckTime>
+    </callStatistics>
+    <callStatistics>
+        <additionalDetails>
+            <description>testQuotingOfQuotes(fieldtest.test.ExtendedMessageFormatTestField)</description>
+            <exceptionClassName>java.lang.OutOfMemoryError</exceptionClassName>
+            <message>Java heap space</message>
+            <trace>java.lang.OutOfMemoryError: Java heap space
+</trace>
+        </additionalDetails>
+        <additionalTriggerDetails>covered: registry:java.util.HashMap-&gt;table:java.util.HashMap.Node[]-&gt;[x] : java.lang.Object : null</additionalTriggerDetails>
+        <result>FAIL</result>
+        <testTime>11206</testTime>
+        <triggerCheckTime>1</triggerCheckTime>
+    </callStatistics>
+    <callStatistics>
+        <additionalDetails>
+            <description>testQuotingOfQuotes(fieldtest.test.ExtendedMessageFormatTestField)</description>
+            <exceptionClassName>java.lang.OutOfMemoryError</exceptionClassName>
+            <message>Java heap space</message>
+            <trace>java.lang.OutOfMemoryError: Java heap space
+</trace>
+        </additionalDetails>
+        <additionalTriggerDetails>covered: registry:java.util.HashMap-&gt;values:java.lang.Object : null</additionalTriggerDetails>
+        <result>FAIL</result>
+        <testTime>13852</testTime>
+        <triggerCheckTime>1</triggerCheckTime>
+    </callStatistics>
+    <callStatistics>
+        <additionalDetails>
+            <description>testQuotingOfQuotes(fieldtest.test.ExtendedMessageFormatTestField)</description>
+            <exceptionClassName>java.lang.OutOfMemoryError</exceptionClassName>
+            <message>Java heap space</message>
+            <trace>java.lang.OutOfMemoryError: Java heap space
+</trace>
+        </additionalDetails>
+        <additionalTriggerDetails>covered: registry:java.util.HashMap-&gt;table:java.lang.Object : null</additionalTriggerDetails>
+        <result>FAIL</result>
+        <testTime>18155</testTime>
+        <triggerCheckTime>0</triggerCheckTime>
+    </callStatistics>
+    <callStatistics>
+        <additionalDetails>
+            <description>testQuotingOfQuotes(fieldtest.test.ExtendedMessageFormatTestField)</description>
+            <exceptionClassName>java.lang.OutOfMemoryError</exceptionClassName>
+            <message>Java heap space</message>
+            <trace>java.lang.OutOfMemoryError: Java heap space
+</trace>
+        </additionalDetails>
+        <additionalTriggerDetails>covered: registry:java.util.HashMap-&gt;modCount:java.lang.Integer : float-min</additionalTriggerDetails>
+        <result>FAIL</result>
+        <testTime>20673</testTime>
+        <triggerCheckTime>0</triggerCheckTime>
+    </callStatistics>
+    <callStatistics>
+        <additionalDetails>
+            <description>testQuotingOfQuotes(fieldtest.test.ExtendedMessageFormatTestField)</description>
+            <exceptionClassName>java.lang.OutOfMemoryError</exceptionClassName>
+            <message>Java heap space</message>
+            <trace>java.lang.OutOfMemoryError: Java heap space
+</trace>
+        </additionalDetails>
+        <additionalTriggerDetails>covered: registry:java.util.HashMap-&gt;size:java.lang.Integer : float-min</additionalTriggerDetails>
+        <result>FAIL</result>
+        <testTime>18702</testTime>
+        <triggerCheckTime>0</triggerCheckTime>
+    </callStatistics>
+    <callStatistics>
+        <additionalDetails>
+            <description>testQuotingOfQuotes(fieldtest.test.ExtendedMessageFormatTestField)</description>
+            <exceptionClassName>java.lang.OutOfMemoryError</exceptionClassName>
+            <message>Java heap space</message>
+            <trace>java.lang.OutOfMemoryError: Java heap space
+</trace>
+        </additionalDetails>
+        <additionalTriggerDetails>covered: registry:java.util.HashMap-&gt;loadFactor:java.lang.Float : zero</additionalTriggerDetails>
+        <result>FAIL</result>
+        <testTime>18707</testTime>
+        <triggerCheckTime>0</triggerCheckTime>
+    </callStatistics>
+    <callStatistics>
+        <additionalDetails>
+            <description>testQuotingOfQuotes(fieldtest.test.ExtendedMessageFormatTestField)</description>
+            <exceptionClassName>java.lang.OutOfMemoryError</exceptionClassName>
+            <message>Java heap space</message>
+            <trace>java.lang.OutOfMemoryError: Java heap space
+</trace>
+        </additionalDetails>
+        <result>FAIL</result>
+        <testTime>17389</testTime>
+        <triggerCheckTime>0</triggerCheckTime>
+    </callStatistics>
+    <summary>
+        <additionalTriggerInfo>covered: registry:java.util.HashMap-&gt;loadFactor:java.lang.Float : zero</additionalTriggerInfo>
+        <additionalTriggerInfo>covered: registry:java.util.HashMap-&gt;keySet:java.lang.Object : null</additionalTriggerInfo>
+        <additionalTriggerInfo>covered: registry:java.util.HashMap-&gt;entrySet:java.lang.Object : null</additionalTriggerInfo>
+        <additionalTriggerInfo>covered: registry:java.util.HashMap-&gt;table:java.util.HashMap.Node[]-&gt;[x] : java.lang.Object : null</additionalTriggerInfo>
+        <additionalTriggerInfo>covered: registry:java.util.HashMap-&gt;values:java.lang.Object : null</additionalTriggerInfo>
+        <additionalTriggerInfo>covered: registry:java.util.HashMap-&gt;modCount:java.lang.Integer : float-min</additionalTriggerInfo>
+        <additionalTriggerInfo>covered: registry:java.util.HashMap-&gt;table:java.lang.Object : null</additionalTriggerInfo>
+        <additionalTriggerInfo>covered: registry:java.util.HashMap-&gt;size:java.lang.Integer : float-min</additionalTriggerInfo>
+        <additionalTriggerInfo>Path: pattern:java.lang.String, MC:
+digraph g {
+__start0 [label="" shape="none"];
+s4 [shape="circle" margin=0 label=&lt;&lt;TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0"&gt;&lt;TR&gt;&lt;TD&gt;s4&lt;/TD&gt;&lt;/TR&gt;&lt;TR&gt;&lt;TD&gt;Symbol [rawSymbol=4, mappedSymbol=1]&lt;/TD&gt;&lt;/TR&gt;&lt;/TABLE&gt;&gt;];
+s5 [shape="circle" margin=0 label=&lt;&lt;TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0"&gt;&lt;TR&gt;&lt;TD&gt;s5&lt;/TD&gt;&lt;/TR&gt;&lt;TR&gt;&lt;TD&gt;Symbol [rawSymbol=z, mappedSymbol=a]&lt;/TD&gt;&lt;/TR&gt;&lt;/TABLE&gt;&gt;];
+s6 [shape="circle" margin=0 label=&lt;&lt;TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0"&gt;&lt;TR&gt;&lt;TD&gt;s6&lt;/TD&gt;&lt;/TR&gt;&lt;TR&gt;&lt;TD&gt;Symbol [rawSymbol= , mappedSymbol= ]&lt;/TD&gt;&lt;/TR&gt;&lt;/TABLE&gt;&gt;];
+s7 [shape="circle" margin=0 label=&lt;&lt;TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0"&gt;&lt;TR&gt;&lt;TD&gt;s7&lt;/TD&gt;&lt;/TR&gt;&lt;TR&gt;&lt;TD&gt;Symbol [rawSymbol=k, mappedSymbol=a]&lt;/TD&gt;&lt;/TR&gt;&lt;/TABLE&gt;&gt;];
+s8 [shape="circle" margin=0 label=&lt;&lt;TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0"&gt;&lt;TR&gt;&lt;TD&gt;s8&lt;/TD&gt;&lt;/TR&gt;&lt;TR&gt;&lt;TD&gt;Symbol [rawSymbol=5, mappedSymbol=1]&lt;/TD&gt;&lt;/TR&gt;&lt;/TABLE&gt;&gt;];
+s9 [shape="circle" margin=0 label=&lt;&lt;TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0"&gt;&lt;TR&gt;&lt;TD&gt;s9&lt;/TD&gt;&lt;/TR&gt;&lt;TR&gt;&lt;TD&gt;Symbol [rawSymbol=X, mappedSymbol=A]&lt;/TD&gt;&lt;/TR&gt;&lt;/TABLE&gt;&gt;];
+s10 [shape="circle" margin=0 label=&lt;&lt;TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0"&gt;&lt;TR&gt;&lt;TD&gt;s10&lt;/TD&gt;&lt;/TR&gt;&lt;TR&gt;&lt;TD&gt;Symbol [rawSymbol=c, mappedSymbol=a]&lt;/TD&gt;&lt;/TR&gt;&lt;/TABLE&gt;&gt;];
+s12 [shape="circle" margin=0 label=&lt;&lt;TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0"&gt;&lt;TR&gt;&lt;TD&gt;s12&lt;/TD&gt;&lt;/TR&gt;&lt;TR&gt;&lt;TD&gt;Symbol [rawSymbol=m, mappedSymbol=a]&lt;/TD&gt;&lt;/TR&gt;&lt;/TABLE&gt;&gt;];
+s11 [shape="circle" margin=0 label=&lt;&lt;TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0"&gt;&lt;TR&gt;&lt;TD&gt;s11&lt;/TD&gt;&lt;/TR&gt;&lt;TR&gt;&lt;TD&gt;Symbol [rawSymbol=Z, mappedSymbol=A]&lt;/TD&gt;&lt;/TR&gt;&lt;/TABLE&gt;&gt;];
+s14 [shape="circle" margin=0 label=&lt;&lt;TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0"&gt;&lt;TR&gt;&lt;TD&gt;s14&lt;/TD&gt;&lt;/TR&gt;&lt;TR&gt;&lt;TD&gt;Symbol [rawSymbol=', mappedSymbol=']&lt;/TD&gt;&lt;/TR&gt;&lt;/TABLE&gt;&gt;];
+s13 [shape="circle" margin=0 label=&lt;&lt;TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0"&gt;&lt;TR&gt;&lt;TD&gt;s13&lt;/TD&gt;&lt;/TR&gt;&lt;TR&gt;&lt;TD&gt;Symbol [rawSymbol=9, mappedSymbol=1]&lt;/TD&gt;&lt;/TR&gt;&lt;/TABLE&gt;&gt;];
+s16 [shape="circle" margin=0 label=&lt;&lt;TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0"&gt;&lt;TR&gt;&lt;TD&gt;s16&lt;/TD&gt;&lt;/TR&gt;&lt;TR&gt;&lt;TD&gt;Symbol [rawSymbol=J, mappedSymbol=A]&lt;/TD&gt;&lt;/TR&gt;&lt;/TABLE&gt;&gt;];
+s15 [shape="circle" margin=0 label=&lt;&lt;TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0"&gt;&lt;TR&gt;&lt;TD&gt;s15&lt;/TD&gt;&lt;/TR&gt;&lt;TR&gt;&lt;TD&gt;Symbol [rawSymbol=V, mappedSymbol=A]&lt;/TD&gt;&lt;/TR&gt;&lt;/TABLE&gt;&gt;];
+s17 [shape="circle" margin=0 label=&lt;&lt;TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0"&gt;&lt;TR&gt;&lt;TD&gt;s17&lt;/TD&gt;&lt;/TR&gt;&lt;TR&gt;&lt;TD&gt;Symbol [rawSymbol=s, mappedSymbol=a]&lt;/TD&gt;&lt;/TR&gt;&lt;/TABLE&gt;&gt;];
+s0 [shape="circle" margin=0 label=&lt;&lt;TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0"&gt;&lt;TR&gt;&lt;TD&gt;s0&lt;/TD&gt;&lt;/TR&gt;&lt;TR&gt;&lt;TD&gt;Symbol [rawSymbol=null, mappedSymbol=null]&lt;/TD&gt;&lt;/TR&gt;&lt;/TABLE&gt;&gt;];
+s1 [shape="circle" margin=0 label=&lt;&lt;TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0"&gt;&lt;TR&gt;&lt;TD&gt;s1&lt;/TD&gt;&lt;/TR&gt;&lt;TR&gt;&lt;TD&gt;Symbol [rawSymbol=i, mappedSymbol=a]&lt;/TD&gt;&lt;/TR&gt;&lt;/TABLE&gt;&gt;];
+s2 [shape="circle" margin=0 label=&lt;&lt;TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0"&gt;&lt;TR&gt;&lt;TD&gt;s2&lt;/TD&gt;&lt;/TR&gt;&lt;TR&gt;&lt;TD&gt;Symbol [rawSymbol= , mappedSymbol= ]&lt;/TD&gt;&lt;/TR&gt;&lt;/TABLE&gt;&gt;];
+s3 [shape="circle" margin=0 label=&lt;&lt;TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0"&gt;&lt;TR&gt;&lt;TD&gt;s3&lt;/TD&gt;&lt;/TR&gt;&lt;TR&gt;&lt;TD&gt;Symbol [rawSymbol=G, mappedSymbol=A]&lt;/TD&gt;&lt;/TR&gt;&lt;/TABLE&gt;&gt;];
+s4 -&gt; s5 [label="1.00"];
+s5 -&gt; s6 [label="1.00"];
+s6 -&gt; s7 [label="1.00"];
+s7 -&gt; s8 [label="1.00"];
+s8 -&gt; s9 [label="1.00"];
+s9 -&gt; s10 [label="1.00"];
+s10 -&gt; s11 [label="1.00"];
+s12 -&gt; s13 [label="1.00"];
+s11 -&gt; s12 [label="1.00"];
+s14 -&gt; s15 [label="1.00"];
+s13 -&gt; s14 [label="1.00"];
+s16 -&gt; s17 [label="1.00"];
+s15 -&gt; s16 [label="1.00"];
+s17 -&gt; s1 [label="1.00"];
+s0 -&gt; s1 [label="1.00"];
+s1 -&gt; s2 [label="1.00"];
+s2 -&gt; s3 [label="1.00"];
+s3 -&gt; s4 [label="1.00"];
+__start0 -&gt; s0;
+}
+</additionalTriggerInfo>
+        <averageTestTime>18819.666666666668</averageTestTime>
+        <averageTriggerCheckTime>0.3333333333333333</averageTriggerCheckTime>
+        <nrExecutedTests>9</nrExecutedTests>
+        <nrPotentiallyExecutedTests>9</nrPotentiallyExecutedTests>
+        <probablyUniqueFailures>1</probablyUniqueFailures>
+        <ratioFailToPass>INF</ratioFailToPass>
+        <ratioOfExecutedTests>1.0</ratioOfExecutedTests>
+    </summary>
+</experiment-statistics>
