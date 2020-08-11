@@ -1,0 +1,3 @@
+# Sample properties for field testing (controls logging directory)
+field-test-id = lang-1b
+log-directory = ../lang_logs
