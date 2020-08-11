@@ -4,6 +4,8 @@ if [[ $# != 2 ]]
   echo "Usage: field_test.sh (init|run) (Lang|Chart)"
   exit
 fi
+cd "$(dirname "$0")"
+
 if [ $1 = "run" -a $2 = "Lang" ]
   then
   echo "Going to run field-testing experiments for Apache Commons Lang"

@@ -42,7 +42,10 @@ for bugId in ${bugIds[@]}; do
     fi 
     cp -r $commonsrc/fieldtest "$workspacedir"/"$bugId"_"$lv"/src/$main/java/
     cp -r $noncommonsrc/"$bugId"b/fieldtest/* "$workspacedir"/"$bugId"_"$lv"/src/$main/java/fieldtest
-    if [[ -d "$workspacedir"/"$bugId"_"$lv"/src/java/org/apache/commons/lang/enum ]]
+    if [ "$bugId" == "44" ] || [ "$bugId" == "47" ]; then # their versions of EqualsBuilder two don't compile
+      cp "$commonconfig"/EqualsBuilder.java "$workspacedir"/"$bugId"_"$lv"/src/java/org/apache/commons/lang/builder/EqualsBuilder.java
+    fi
+    if [[ -d "$workspacedir"/"$bugId"_"$lv"/src/java/org/apache/commons/lang/enum ]] # enum is reserved in newer Java version
     then
       rm -r "$workspacedir"/"$bugId"_"$lv"/src/java/org/apache/commons/lang/enum
       rm -r "$workspacedir"/"$bugId"_"$lv"/src/java/org/apache/commons/lang/enums
