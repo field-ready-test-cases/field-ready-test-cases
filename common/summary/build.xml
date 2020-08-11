@@ -1,0 +1,48 @@
+<project name="summary" default="compile" basedir=".">
+ 
+
+     <!-- ========== Executable Targets ======================================== -->
+    <target name="init" description="Initialize">
+        <echo message="Application Showing Summary of Results"/>
+        <property name="build.home"    value="build"/>
+        <property name="src.home"      value="${basedir}/../src"/>
+        <mkdir dir="${build.home}"/> 
+        <!-- ========== Construct compile classpath =============================== -->
+        <path id="compile.classpath">
+            <pathelement location="${build.home}/classes"/>
+            <pathelement location="../deps/target/dependency/junit-4.12.jar"/>
+        </path>
+    </target>
+    
+    <!-- ========== Compile Targets ========================================= -->
+    <target name="compile" depends="init" description="Compile">
+        <mkdir dir="${build.home}/classes"/>
+        <mkdir dir="${build.home}/src"/>
+        <copy todir="${build.home}/src">
+            <fileset dir="${src.home}">
+                <include name="**/fieldtest/statistics/**"/>
+                <include name="**/fieldtest/triggering/FieldTestTrigger.java"/>
+                <include name="**/fieldtest/triggering/TriggerSingleton.java"/>
+                <include name="**/fieldtest/logging/**"/>
+                <include name="**/helper/stat_summary/**"/>
+            </fileset>
+        </copy>
+
+        <javac srcdir="${build.home}/src" destdir="${build.home}/classes" includeantruntime="false"
+               debug="on" source="1.8" target="1.8">
+            <classpath refid="compile.classpath"/>
+        </javac>
+    </target>
+    <target depends="init" name="clean" description="Clean build and distribution directories">
+        <delete dir="${build.home}"/>
+    </target>
+    <target name="compute-summary" description="Compute and show summary" depends="init,compile"> 
+       <java classname="helper.stat_summary.ComputeStatisticsSummary" fork="true" dir="${build.home}/classes">     
+       	 	<sysproperty key="experimentloc" value="${basedir}/../../results"/>
+    		<classpath refid="compile.classpath"/>
+        </java>
+    </target>
+
+
+ 
+</project>

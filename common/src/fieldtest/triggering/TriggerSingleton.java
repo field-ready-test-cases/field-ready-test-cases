@@ -2,8 +2,6 @@ package fieldtest.triggering;
 
 import java.util.List;
 
-import fieldtest.triggering.parameter_tree.TestParameterTreeTraverser;
-
 /**
  * A singleton holding an object implementing a triggering mechanism. 
  * 

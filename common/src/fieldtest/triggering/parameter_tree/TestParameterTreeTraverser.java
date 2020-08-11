@@ -7,7 +7,6 @@ import java.lang.reflect.Modifier;
 import fieldtest.aspect.TestStorage;
 import fieldtest.logging.SingletonFieldTestLogger;
 import fieldtest.triggering.parameter_tree.TestParameterTree.TreeNode;
-import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 
 import org.reflections.ReflectionUtils;
 
@@ -75,7 +74,7 @@ public class TestParameterTreeTraverser {
 						+ "the test parameters using reflection due to an "
 						+ "IllegalAccessException with the message: " + 
 						e.getMessage());
-				throw new NotImplementedException();
+				throw new RuntimeException("Cannot handle IllegalAccessException");
 			}
 		}
 		return parameterTree;

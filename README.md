@@ -27,9 +27,7 @@ For installation instruction of Defects4j, we refer to
 available from the command line by trying the command 
 `defects4j info -p Chart -b 2` which should print information about the second
 bug of JFreeChart. The JDK version used for the experiments should be at least 8, 
-which is required by Defects4j. Our build files actually set the compiler 
-compliance level generally to version 7, so this version may work too 
-(this is untested, though). We performed the experiments with Apache
+which is required by Defects4j. We performed the experiments with Apache
 Ant 1.10.3 and Apache Maven 3.5.2, but older versions should be sufficient as 
 well. Finally, we used Ubuntu Linux 18.04. as operating system. 
 

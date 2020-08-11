@@ -2,8 +2,6 @@ package fieldtest.statistics;
 
 import org.junit.runner.Result;
 
-import sun.reflect.generics.reflectiveObjects.NotImplementedException;
-
 /**
  * A singleton class for logging structured data about field-test executions.
  * 
