@@ -1,7 +1,7 @@
 # Field-Ready Test Cases
 This repository contains the source code needed to replicate the experiments 
-discussed in the paper "Field-Ready Test Cases for Testing Software in the Field 
-with Actual Data". Additionally, it also contains the raw experimental results
+discussed in the paper "Testing Software in Production Environments with Data 
+from the Field". Additionally, it also contains the raw experimental results
 presented in the paper. Note that for general information on our approach to 
 field testing, we refer to our paper.
 
